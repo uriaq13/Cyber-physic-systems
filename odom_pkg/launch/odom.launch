@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="odom_pkg" type="odom.py" name="odometria_node" output="screen" />
+    <include file="$(find rplidar_ros)/launch/view_rplidar.launch" />
+    <!-- <node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0 3.14159265359 0 0 base_link laser 100"/> -->
+    <!-- <node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0 0 0 0 base_link laser 100"/> -->
+
+
+</launch>
+

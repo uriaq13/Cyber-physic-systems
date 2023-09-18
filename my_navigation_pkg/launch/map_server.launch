@@ -1,0 +1,17 @@
+<launch>
+
+    <include file="$(find odom_pkg)/launch/odom.launch" /> 
+    <!-- Map Server -->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find my_navigation_pkg)/maps/map25.yaml"/>
+
+    <!-- AMCL for localization -->
+    <include file="$(find my_navigation_pkg)/launch/amcl.launch" />
+
+    <!-- Move Base -->
+    <include file="$(find my_navigation_pkg)/launch/move_base.launch" /> 
+
+    <include file="$(find mqtt_to_ros_bridge)/launch/mqtt.launch"/>
+
+
+
+</launch>
