@@ -2,6 +2,7 @@
 
 Proyecto de sistemas ciberfisicos 1
 Equipo 5
+Este repositorio, contiene las configuraciones y el codigo del Puzzlebot para la resolucion del reto, ademas del codigo de RFID, finalmente, contiene los archivos de los CAD del soporte para el RFID y de la Raspberry
 
 Sofía Marlenne Dorantes López A01657993
 Jorge Andrés González Salazar A01770266
